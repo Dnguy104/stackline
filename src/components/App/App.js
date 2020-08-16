@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../assets/logo.svg';
-import './App.css';
+import Header from '../Header/Header.js'
+import './App.scss';
 
 const App = (props) => {
   // const {  } = props;
 
   return (
-    <div className='class'>
-
+    <div className='app'>
+      <Header />
     </div>
   );
 }
