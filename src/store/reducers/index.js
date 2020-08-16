@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { data } from './reducers.js';
+import app from './reducers.js';
 
 export default combineReducers({
-  data,
+  app,
 });

@@ -1,0 +1,20 @@
+@import '../../global.scss';
+
+.tab-button-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  color: $dark-grey;
+  &:hover {
+    box-shadow: inset 100px 100px rgba(0,0,0,0.1);
+  }
+}
+
+img.icon {
+  width:20px;
+  height:20px;
+  padding-right: 10px;
+  filter: invert(.5);
+}

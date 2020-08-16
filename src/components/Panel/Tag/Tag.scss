@@ -1,0 +1,15 @@
+@import '../../global.scss';
+
+.tag-container {
+  color: $dark-grey;
+  display: inline-block;
+  border-color: $dark-white;
+  border-radius: 4px;
+  border-width: 1.5px;
+  border-style: solid;
+  padding: 2px 20px;
+  margin: 5px;
+
+  font-weight: 700;
+  font-size: 12px;
+}
