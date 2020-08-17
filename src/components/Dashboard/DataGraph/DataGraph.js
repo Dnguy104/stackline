@@ -48,9 +48,9 @@ const DataGraph = (props) => {
     <div className='graph-container'>
       <div className={'graph-item'}>
         <h4>Retail Sales</h4>
-        <svg preserveAspectRatio="none" width={800} height={350}>
-          <path className={'retailSales'} d={retailLine(data)} />
-          <path className={'wholesaleSales'} d={wholesaleLine(data)} />
+        <svg preserveAspectRatio="none" width={800} height={400}>
+          <path className={'retail-line'} d={retailLine(data)} />
+          <path className={'wholesale-line'} d={wholesaleLine(data)} />
         </svg>
         {renderAxis()}
       </div>
