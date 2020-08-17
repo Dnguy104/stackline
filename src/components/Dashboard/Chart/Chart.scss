@@ -1,0 +1,44 @@
+@import '../../global.scss';
+
+.chart-container {
+  width: 100%;
+  height: fit-content;
+  background-color: $white;
+  margin: 20px 20px 20px 0px;
+
+}
+
+.chart-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0px;
+
+}
+
+.chart-item.header {
+  color: $dark-grey;
+  font-weight: 700;
+
+  &:hover {
+    box-shadow: inset 100px 100px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+}
+
+.chart-item {
+    display: inline-block;
+    width: 110px;
+    color: $grey;
+}
+
+.chart-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8px 0px;
+  &:hover {
+    box-shadow: inset 100px 100px rgba(200,200,200,0.1);
+    color: $ghost-white;
+  }
+}

@@ -17,7 +17,6 @@ export const creators = {
 }
 
 export const getApiData = () => async (dispatch) => {
-  console.log('getting data')
   dispatch(creators.fetchDataStart())
   try {
     const data = await fetchApi()
@@ -27,6 +26,7 @@ export const getApiData = () => async (dispatch) => {
     throw err
   }
 }
+
 
 const fetchApi = async () => {
   return await fetchData()

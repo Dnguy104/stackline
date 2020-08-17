@@ -1,0 +1,9 @@
+@import '../global.scss';
+
+.dashboard-container {
+  height: fit-content;
+  background-color: $ghost-white;
+  margin: 20px 20px 20px 0px;
+  min-width: 800px;
+  width: 100%;
+}
